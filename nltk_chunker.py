@@ -9,6 +9,10 @@ import sys
 import codecs     # Python 2.7 and earlier only
 
 
+# very simple grammar
+grammar = "NP: {<DT>?<JJ>*<NN>}"
+
+
 
 cp = nltk.RegexpParser(grammar)
 
