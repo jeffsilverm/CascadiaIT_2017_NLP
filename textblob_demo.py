@@ -42,10 +42,14 @@ except UnicodeDecodeError as e:
     sys.exit(1)
 
 # From https://media.readthedocs.org/pdf/textblob/0.8.2/textblob.pdf
-print ( "Tags: ", blob.tags)
-print ( "Tokens: ", blob.tokenize() )
-print ( "Parsed: ", blob.parse() )
-print ( "sentiment: Polarity {:.2f} subjectivity {:.2f} ".format(blob.sentiment.polarity, blob.sentiment.subjectivity ) )
+if options.tags :
+    print ( "Tags: ", blob.tags)
+if options.tokens :
+    print ( "Tokens: ", blob.tokenize() )
+if options.parsed :
+    print ( "Parsed: ", blob.parse() )
+if options.sentiment :
+    print ( "sentiment: Polarity {:.2f} subjectivity {:.2f} ".format(blob.sentiment.polarity, blob.sentiment.subjectivity ) )
 
 # http://textblob.readthedocs.io/en/dev/quickstart.html
 
