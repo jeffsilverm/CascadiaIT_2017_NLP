@@ -44,17 +44,11 @@ python nltk_chunker.py "Except as provided in subsection (b), applications for p
 
 python3 textblob_demo.py --parse --sentence "Except as provided in subsection (b), applications for patents shall be kept in confidence by the Patent and Trademark Office and no information concerning the same given without authority of the applicant or owner unless necessary to carry out the provisions of an Act of Congress or in such special circumstances as may be determined by the Director."
 
-
-
-textblob_demo.py
-
-
-text_to_json_using_textblob.py
-
-
-textblob_tagger.py
+python nltk_draw.py "Except as provided in subsection (b), applications for patents shall be kept in confidence by the Patent and Trademark Office and no information concerning the same given without authority of the applicant or owner unless necessary to carry out the provisions of an Act of Congress or in such special circumstances as may be determined by the Director.  Dr. Richards drank the potion."
 
 
 
-wordvec_spacy.py
+python wordvec_spacy.py
+
+
 
