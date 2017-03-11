@@ -27,14 +27,11 @@ elif options.sentence is not None :
 else :
     in_file_text = raw_input("Enter a sentence")
 
-in_file_text = sys.argv[1]
-
 
 
 extractor = ConllExtractor()
 try:
     blob = textblob.TextBlob(in_file_text, np_extractor=extractor)
-    blob = textblob.TextBlob(in_file_text )
 except UnicodeDecodeError as e:
     print("Threw a UnicodeDecodeError {} in_file_text is \n".format(str(e)))
     print(in_file_text)
