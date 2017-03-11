@@ -2,12 +2,19 @@ python3 textblob_demo.py --tags --sentence "The toddler ate the yellow crayon."
 
 python3 textblob_demo.py --tags --sentence "They ate the pizza with achovies."
 
+python3 textblob_demo.py --tags -s "If it is raining, then put on your coat"
+
+python3 textblob_demo.py --tags -s "When it is raining, then put on your coat"
+
 python3 textblob_demo.py --tags --sentence "Except as provided in subsection (b), applications for patents shall be kept in confidence by the Patent and Trademark Office and no information concerning the same given without authority of the applicant or owner unless necessary to carry out the provisions of an Act of Congress or in such special circumstances as may be determined by the Director."
 
 python3 textblob_demo.py --parsed --sentence "The toddler ate the yellow crayon."
 
 python3 textblob_demo.py --parsed --sentence "They ate the pizza with achovies."
 
+python3 textblob_demo.py --parsed -s "If it is raining, then put on your coat"
+
+python3 textblob_demo.py --parsed -s "When it is raining, then put on your coat"
 
 
 
