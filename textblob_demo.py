@@ -27,9 +27,6 @@ elif options.sentence is not None :
 else :
     in_file_text = raw_input("Enter a sentence")
 
-in_file_text = sys.argv[1]
-
-
 
 extractor = ConllExtractor()
 try:
