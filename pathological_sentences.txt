@@ -1,0 +1,43 @@
+# Pathological sentenceas.
+# Any line that begins with #C is the beginning of a sentence.  The text from the C to the first white space
+# is a sentence name, which typically would be a counter.
+# Any line that begins with a # is a comment.
+# All other lines are pathological sentences.
+# A parenthesis pair introduces a comment about why the sentence is pathological.
+# If there is a string in the parenthesis pair enclosed in double quotes, then the string is the sentence re-written so that it is not pathological.
+And now for something completely different  (has no verb).
+Woman and children first!   (has no verb).
+Let's eat kids.   (missing a comma, should be "Let's eat, kids").
+This sentence is false (not sure if this is pathological for what we're doing.  Semantically, it is confusing).
+I met a man who is either a genius or a lunatic (Might not be pathological).
+I want to make brownies badly (The word "badly is very ambiguous - does it mean she wants to make bad brownies, does she mean she very much wants to make brownies).
+As I was walking to Saint Ives, I met a man with seven wives.  (Is this pathological?).
+They ate the pizza with anchovies (Did the use the anchovies to eat the pizza or did the pizza have anchovies on it?).
+
+
+A woman without her man is nothing.  (no punctuation)
+A woman, without her man, is nothing.  (punctuated by males)
+A woman: without her, man is nothing.  (punctuated by females)
+Once, I thought I was thinking, but after thinking about it, I thought I was not thinking at all.
+I'm glad you're thinking: I think that's thoughtful.
+And Aaron and his sons shall wash their hands and their feet thereat; when they go into the tent of meeting, they shall wash with water, that they die not; or when they come near to the altar to minister, to cause an offering made by fire to smoke unto HaShem; (Exodus 30:19-20.  Archaic English.  Also, the sentence is a careful reflection of the Hebrew, to be a better English sentence, it should be written "Aaron and his sons shall wash their hands and their feet, they shall wash with water, that they not die when they come near to the altar to minister or when [they] cause an offering made by fire to smoke unto HaShem.)
+These truths we hold to be self evident.
+
+The butler killed Mrs. Marpole in the conservatory with the candlestick.
+Allison opened the door.
+The janitor opened the door.
+The chancelor 
+When it is raining, put on your coat.
+Put on your coat when it is raining.
+If it is raining, put on your coat.
+If it is raining, then put on your coat.
+The electrons are ruining my reputation, they are.
+In Hertford, Hereford and Hampshire hurricanes hardly ever happen.
+I have not yet begun to fight.
+I did not have sex with that woman.
+
+ 
+
+Thanks for coming out Fuel today.  You did good.
+
+
