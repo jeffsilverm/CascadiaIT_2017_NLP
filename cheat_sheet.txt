@@ -1,0 +1,60 @@
+python3 textblob_demo.py --tokens --sentence "The toddler ate the yellow crayon."
+
+python3 textblob_demo.py --tokens --sentence "If it is raining, then put on your coat.  Dr. Richards drank the potion."
+
+python3 textblob_demo.py --tags --sentence "The toddler ate the yellow crayon."
+
+python3 textblob_demo.py --tags --sentence "They ate the pizza with achovies."
+
+python3 textblob_demo.py --tags -s "If it is raining, then put on your coat"
+
+python3 textblob_demo.py --tags -s "When it is raining, then put on your coat"
+
+python3 textblob_demo.py --tags --sentence "Except as provided in subsection (b), applications for patents shall be kept in confidence by the Patent and Trademark Office and no information concerning the same given without authority of the applicant or owner unless necessary to carry out the provisions of an Act of Congress or in such special circumstances as may be determined by the Director."
+
+python3 textblob_demo.py --parsed --sentence "The toddler ate the yellow crayon."
+
+python3 textblob_demo.py --parsed --sentence "They ate the pizza with achovies."
+
+python3 textblob_demo.py --parsed -s "If it is raining, then put on your coat"
+
+python3 textblob_demo.py --parsed -s "When it is raining, then put on your coat"
+
+python3 textblob_demo.py --parsed --sentence "If it is raining, then put on your coat.  Dr. Richards drank the potion."
+
+python3 textblob_demo.py --tags --sentence "Except as provided in subsection (b), applications for patents shall be kept in confidence by the Patent and Trademark Office and no information concerning the same given without authority of the applicant or owner unless necessary to carry out the provisions of an Act of Congress or in such special circumstances as may be determined by the Director."
+
+
+
+python nltk_chunker.py "Pierre Vinken, 61 years old, will join the board as a nonexecutive director Nov. 29."
+
+python nltk_chunker.py -f pathological_sentences.txt
+
+python nltk_chunker.py "The electrons are ruining my reputation, they are."
+
+python nltk_chunker.py "They ate the pizza with anchovies." 
+
+python nltk_chunker.py "A woman without her man is nothing."
+
+python nltk_chunker.py "A woman, without her man, is nothing."
+
+python nltk_chunker.py "A woman: without her, man is nothing."
+
+python nltk_chunker.py "Except as provided in subsection (b), applications for patents shall be kept in confidence by the Patent and Trademark Office and no information concerning the same given without authority of the applicant or owner unless necessary to carry out the provisions of an Act of Congress or in such special circumstances as may be determined by the Director."
+
+python3 textblob_demo.py --parse --sentence "Except as provided in subsection (b), applications for patents shall be kept in confidence by the Patent and Trademark Office and no information concerning the same given without authority of the applicant or owner unless necessary to carry out the provisions of an Act of Congress or in such special circumstances as may be determined by the Director."
+
+
+
+textblob_demo.py
+
+
+text_to_json_using_textblob.py
+
+
+textblob_tagger.py
+
+
+
+wordvec_spacy.py
+
